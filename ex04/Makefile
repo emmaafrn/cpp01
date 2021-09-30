@@ -1,10 +1,10 @@
-NAME = weapon
+NAME = replace
 
-SRCS = HumanA.cpp HumanB.cpp main.cpp Weapon.cpp
+SRCS = main.cpp
 
 OBJS = ${SRCS:.cpp=.o}
 
-INC = HumanA.hpp HumanB.hpp Weapon.hpp
+INC = 
 
 CC  = g++
 

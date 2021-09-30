@@ -1,5 +1,5 @@
-#ifndef HUMAN_HPP
-# define HUMAN_HPP
+#ifndef HUMANB_HPP
+# define HUMANB_HPP
 
 #include <iostream>
 #include <string>
@@ -11,7 +11,7 @@ std::string	Name;
 Weapon		*weapon;
 public :
 	HumanB(std::string name);
-void	setWeapon(Weapon weapon);
+void	setWeapon(Weapon &NewWeapon);
 void	attack();
 };
 
